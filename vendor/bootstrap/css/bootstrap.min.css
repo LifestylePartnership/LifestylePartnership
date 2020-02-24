@@ -2820,7 +2820,7 @@ select[multiple].input-lg {
 .has-success.checkbox label,
 .has-success.radio-inline label,
 .has-success.checkbox-inline label {
-  color: #860000;
+  color: #4d4d4d;
 }
 .has-success .form-control {
   border-color: #3c763d;
@@ -2910,7 +2910,7 @@ select[multiple].input-lg {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373;
+  color: #ff0000;
 }
 @media (min-width: 768px) {
   .form-inline .form-group {
@@ -6407,14 +6407,14 @@ button.close {
   cursor: pointer;
   background-color: #000 \9;
   background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(255, 0, 0, 0.49);
+  border: 1px solid rgba(255, 255, 255, 0.49);
   border-radius: 10px;
 }
 .carousel-indicators .active {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #f00;
+  background-color: #ffffff;
 }
 .carousel-caption {
   position: absolute;
