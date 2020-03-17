@@ -577,3 +577,24 @@ div.middle-div {
 .special-padding {
    padding: 10px 0;
 }
+
+
+/* --- Text In An Image --- */
+.item {
+ text-align: center;
+ color: white;
+}
+
+.centered-image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* --- Large Text In An Image --- */
+
+.image-text-big {
+  font-size: 4em;
+  text-shadow: 4px 2px 16px rgba(0, 0, 0, 0.44);
+}
