@@ -1,0 +1,125 @@
+body {
+  font-family: 'Almarai', 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:  'Libre Baskerville','Times New Roman', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+a {
+  color: #a89595 !important;
+}
+
+a:hover {
+  color: #ffffff !important;
+}
+
+/* Bg Colours */
+.bg-light {
+  background-color: #E8E8E8 !important;
+}
+
+.bg-cream {
+  background-color: #CFCDC7 !important;
+}
+
+.bg-brown {
+  background-color: #342E2E !important;
+}
+
+.nav-item {
+  font-family: 'Libre Baskerville','Times New Roman', sans-serif;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  text-shadow: #00000059 1px 1px 10px;
+}
+
+.nav-link:hover{
+  color: white !important;
+  background-color: #342E2E !important;
+}
+
+.nav-link.active, .nav-link:focus{  
+  color: #000000 !important;
+  background-color: #E8E8E8 !important;
+  border-color: #000000 !important;
+  border-width: 1px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.fullwidth-header {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* Set the height to 70% of the viewport height */
+  background-color: #342E2E; /* Background color */
+  overflow: hidden;
+}
+.fullwidth-header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.fullwidth-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(52,46,46);
+  background: -moz-linear-gradient(180deg, rgba(52,46,46,0.7175245098039216) 0%, rgba(52,46,46,0.7175245098039216) 75%, rgba(52,46,46,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(52,46,46,0.7175245098039216) 0%, rgba(52,46,46,0.7175245098039216) 75%, rgba(52,46,46,1) 100%);
+  background: linear-gradient(180deg, rgba(52,46,46,0.7175245098039216) 0%, rgba(52,46,46,0.7175245098039216) 75%, rgba(52,46,46,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#342e2e",endColorstr="#342e2e",GradientType=1);
+}
+
+.centered-image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Buttons */
+
+.btn {
+  font-family: Libre Baskerville, 'Times New Roman', sans-serif;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  /* Add your hover styles here */
+  opacity: 60%;
+  color:#342E2E;
+}
+
+.form-control {
+border: none;
+}
+
+.form-control:focus {
+    border-color: #342E2E !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(107, 107, 107, 0.25) !important;
+}
