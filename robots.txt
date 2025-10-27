@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /invoice-quote-gen-a7k3m22618.html
+
+# Allow everything else
+Allow: /
